@@ -37,7 +37,7 @@ export default function App() {
           name="QuestionPage"
           component={TreeScreen}
           options={{
-            title: "What are the Data Available?",
+            title: "What are the data available?",
           }}
         />
       </Stack.Navigator>

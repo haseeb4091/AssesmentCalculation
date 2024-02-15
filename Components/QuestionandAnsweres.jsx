@@ -7,12 +7,14 @@ const styles = StyleSheet.create({
         backgroundColor:"white",
     },
     nodeButton: {
-        borderWidth: 1, // Use borderWidth for border
-        borderColor: "black", // Specify borderColor for border color
+        borderWidth: 1,
+        borderColor: "black",
         padding: 6,
-        borderRadius: 7, // Specify borderRadius as a number
+        borderRadius: 7,
         marginBottom: 5,
         fontSize: 13,
+        height: 70,
+        justifyContent: 'center', // Vertically center the content
     },
     buttonText: {
         color: '#000', // Example text color
@@ -92,7 +94,7 @@ const TreeScreen = ({navigation}) => {
                         label: '1 long-term result plus short-term results',
                         children: [
                             {
-                                label: 'Does the lowest long-term result come from the same species as that with the lowest short-term result?',
+                                label: 'Does the long-term result come from the same species as that with the lowest of short-term results?',
                                 children: [
                                     {
                                         label: 'If yes, use an assessment factor of 100 on the long-term result',
